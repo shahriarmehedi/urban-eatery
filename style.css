@@ -1,0 +1,267 @@
+/* CSS DEVELOPEBD BY MD SHAHRIAR MEHEDI AS A PROGRAMMING HERO ASSIGNMENT 1 */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(245, 245, 245);
+  max-width: max-content;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 19px;
+  display: inline-flex;
+  list-style-type: none;
+  text-align: center;
+  background-color: rgb(53, 53, 53);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 15px 60px;
+  color: #07cec1;
+  background-color: rgb(71, 71, 71);
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+#navbar ul li a:hover {
+  color: #fff;
+  background-image: linear-gradient(to right, #04c3b6, #25d98c);
+}
+
+.logo {
+  width: 25%;
+  margin-left: -20px;
+  margin-right: 155px;
+}
+
+.flexible {
+  display: flex;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin: 5%;
+  padding: 2%;
+}
+
+#model1 {
+  width: 100%;
+}
+
+#model2 {
+  width: 60%;
+  margin-left: 250px;
+}
+
+.front-text-section {
+  margin-top: 150px;
+}
+
+.about-me-section {
+  margin-top: 150px;
+}
+
+.front-text {
+  color: rgb(83, 83, 83);
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.sub-text {
+  color: gray;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.smaller-text {
+  font-size: 20px;
+  color: rgb(165, 165, 165);
+}
+
+#about-me-text {
+  text-align: justify;
+}
+
+.secondary-heading {
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+}
+
+.recepie-title {
+  font-size: 25px;
+  color: #05b4a9;
+}
+
+#newsletter-text {
+  color: #3a3a3a;
+  font-size: 32px;
+  text-align: center;
+}
+
+.pale-green {
+  color: #04c3b6;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #04c3b6, #25d98c);
+  padding: 25px 50px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 20px 0 -30px 0;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to left, #3a3a3a, #3a3a3a);
+  padding: 25px 50px;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 20px 0 -30px 0;
+  transition: 0.5s;
+}
+
+.section2 {
+  background-image: url(images/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 785px;
+}
+
+#my-recipies-section {
+  margin-top: 120px;
+}
+
+.align-middle {
+  text-align: center;
+}
+
+.flexible-boxes {
+  display: flex;
+  margin: 5% 10% 0 10%;
+}
+
+.flexible-boxes img {
+  width: 400px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+.box-shadow {
+  justify-content: center;
+  margin-top: 7px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 200px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 30px;
+}
+
+.box-shadow h1 {
+  text-align: center;
+}
+
+.box-shadow p {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.form-box {
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-box input {
+  font-size: 18px;
+  color: #464646;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+}
+
+.form-box button {
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #05b4a9;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form-box button:hover {
+  background: #25d98c;
+}
+
+.followers {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 225px;
+  margin-bottom: 100px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 76%;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.followers h1 {
+  font-size: 30px;
+  color: #01a59a;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.followers p {
+  color: #666666;
+  font-size: 16px;
+  margin-left: 75px;
+  margin-right: 80px;
+  justify-content: space-between;
+}
+
+footer {
+  height: 200px;
+  background-color: rgb(41, 41, 41);
+}
+
+footer p {
+  padding-bottom: 20px;
+  color: #8b8b8b;
+  text-align: center;
+}
+footer img {
+  display: block;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
